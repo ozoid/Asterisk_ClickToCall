@@ -9,7 +9,7 @@
  if (file_exists($file)) {
  
  if (!file_exists($mp3extn)) {	
-	$commandOutput = shell_exec('/usr/bin/ffmpeg -i ' . $file . ' ' . $mp3extn);
+	# $commandOutput = shell_exec('/usr/bin/ffmpeg -i ' . $file . ' ' . $mp3extn);
 	$commandOutput = shell_exec('/usr/bin/lame -V 2 ' . $file . ' ' . $mp3extn);
  }
     header('Content-Description: File Transfer');
