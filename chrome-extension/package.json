@@ -1,0 +1,11 @@
+{
+    "name": "astxextension",
+    "version": "1.0.0",
+    "description": "Chrome Telephone CTD",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "4D DC",
+    "license": "ISC"
+}
